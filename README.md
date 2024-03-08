@@ -48,7 +48,7 @@ ________________________________________
 3.1 Prerequisites
 Ensure you have Node.js installed on your machine.
 3.2 Installation
-Clone the repository: 
+Clone the repository: https://github.com/Chetzzzz/My-Login-App
 Navigate to the project directory: cd my-login-app
 Install dependencies: npm install
 3.3 Running the Application
