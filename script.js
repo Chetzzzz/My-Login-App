@@ -1,9 +1,9 @@
-// script.js
+
 function submitForm() {
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
 
-    // Simulate AJAX request to the backend
+    
     fetch('/login', {
         method: 'POST',
         headers: {
@@ -17,7 +17,7 @@ function submitForm() {
     .then(response => response.json())
     .then(data => {
         if (data.success) {
-            window.location.href = 'success.html'; // Redirect to success page
+            window.location.href = 'success.html'; 
         } else {
             document.getElementById('error-message').innerText = data.message;
         }
